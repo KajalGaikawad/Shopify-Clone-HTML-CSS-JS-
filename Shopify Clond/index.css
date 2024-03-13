@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+.tagline{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'krub',sans-serif;
+    color: white;
+    margin-top: 0;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+}
+.name2{
+    margin-top: 38px;
+    font-family:'Roboto',sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    word-spacing: -5;
+}
+.name3{
+    margin-top: 35px;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-size: 2rem;
+}
+input{
+    background-color: white;
+    color: gray;
+    padding: 6px;
+    font-family: 'Roboto',sans-serif;
+    width: 350px;
+    border-radius: 5px;
+    height: 28px;
+    margin-top: 35px;
+    font-size: 1rem;
+
+}
+.btn{
+    color: white;
+    height: 45px;
+    width: 143px;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+.btn:hover{
+    box-shadow: 2px 2px 15px black;
+}
+#btn1{
+    background-color: black;
+    margin: 0 8px 8px 8px ;
+
+}
+.p1{
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+}
+.bannerimg{
+    z-index: 1;
+    position: relative;
+    margin-top: -545px;
+}
+.main1{
+    background-color: #008060;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    position: relative;
+}
+
+.bannerimg1{
+    position: absolute;
+    width: 100vw;
+    bottom: -2%;
+}
+
+.features{
+    display: flex;
+   gap: 20px;
+   justify-content: space-between;
+margin-top: 55px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* border: 2px solid black; */
+    text-align: start;
+    gap: 13px;
+}
+
+.font-icon{
+    font-size: 2rem;
+    color: #008060;
+}
+
+.feat-desc{
+    color: grey;
+}
+
+.brands{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin-top: 122px;
+   gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.brands img{
+    width: 100px;
+}
+
+.testimonials{
+    margin-top: 75px;
+    width: 53vw;
+}
+
+.testi{
+    color: black;
+    font-family: 'Krub', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.testi-author{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(44, 39, 39);
+    margin-top:40px ;
+}
+
+#btn2{
+    background-color: #008060;
+    margin-top: 50px;
+}
+
+.footer
+{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.footer-item{
+    cursor: pointer;
+    color: #008060;
+ font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .shopify-usp{
+        font-size: 2.5rem;
+        color: white
+   
+    }
+    .main-header{
+        height: 800px;
+    }
+
+    .banner-img{
+        margin-top: -300px;
+    }
+
+    .brands{
+        margin-top: 50px;
+    }
+
+   
+
+}
+
+
+
+@media screen and (max-width: 768px ) {
+    
+    .name1{
+        font-size: 2.5rem;
+        color: white
+   
+    }
+
+    .header{
+        height: 650px;
+    }
+
+    .bannerimg{
+        margin-top: -80px;
+    }
+
+    .features{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature{
+        text-align: center;
+    }
+
+    #btn1{
+        margin-top:20px ;
+        width: 362px; 
+        margin-left: -5px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
